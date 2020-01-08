@@ -2,7 +2,7 @@ package se.ecutb.loffe.inheritance_demo.model;
 
 import java.time.LocalDate;
 
-public class Person {
+public abstract class Person implements Walkable{
 
     protected String name;
     protected LocalDate birthDate;
@@ -36,4 +36,5 @@ public class Person {
                 ", birthDate=" + birthDate +
                 '}';
     }
+
 }
